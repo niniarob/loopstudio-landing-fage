@@ -196,7 +196,7 @@
         justify-content: end;
     }
 }
-@media (max-width: 768px) {
+@media (max-width: 345px) {
     .desktop-menu {
       display: block;
     }
