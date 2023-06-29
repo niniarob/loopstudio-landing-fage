@@ -158,6 +158,13 @@
         grid-template-columns: repeat(4, auto);
         grid-gap: 105px;
     }
+    .section-three .images-sect img {
+        transition: border-color 0.3s ease, opacity 0.3s ease;
+      }
+      
+    .section-three .images-sect img:hover {
+        opacity: 0.4;
+      }
     .section-four{
         display: none;
     }
