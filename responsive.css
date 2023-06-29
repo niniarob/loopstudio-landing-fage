@@ -1,0 +1,210 @@
+@media screen and (min-width:1440px){
+    header{
+      width: 100%;
+      background-image: none;
+      background-image: url(./assets/desk-bckg.svg);
+      background-size: 100%;
+    }
+    .menu{
+        display: none;
+    }
+    .open-menu{
+        display: none;
+    }
+    .close-menu{
+        display: none;
+    }
+    nav{
+        width: 1340px;
+        height: 100px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        margin-top: 64px;
+    }
+    .nav-bar{
+        display: flex;
+        margin-top: 0;
+        align-items: center;
+    }
+    .desk-menu{
+        display: block;
+        display: flex;
+        flex-direction: row;
+        gap: 32px;
+    }
+    .desk-menu li {
+        list-style: none;
+    }
+    .desk-menu li a{
+        text-decoration: none;
+        color: #FFF;
+        font-size: 15px;
+        font-family: "Alata";
+        line-height: 25px;
+        position: relative;
+    }
+    .desk-menu li a::after{
+        content:"";
+        position: absolute;
+        bottom: -8px;
+        left: 0;
+        width: 0;
+        height:3px;
+        background-color: #ffffff;
+        transition: 0.15s ease-in-out; 
+    }
+    .desk-menu li a:hover:after{
+        width: 100%;
+        transition: 1s;
+    }
+    .deliver{
+        width: 1340px;
+        margin-top: 110px;
+    }
+    .deliver-text{
+        width: 650px;
+        height: 278px;
+        margin-top: 0;
+    }
+    .deliver-text h1{
+        width: 570px;
+        font-size: 72px;
+        line-height: 70px;
+    }
+    main{
+        width: 100%;
+        margin-top: 160px;
+    }
+    .section-one{
+        width: 1340px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    .deskb{
+        display: block;
+    }
+    .mobb{
+        display: none;
+    }
+    .leader-text{
+        width: 541px;
+        height: 317px;
+        background: #fff;
+        position: relative;
+        bottom: -68px;
+        left: -215px;
+    }
+    .leader-text h2{
+        width: 445px;
+        font-size: 48px;
+        line-height: 48px;
+        text-align: start;
+    }
+    .leader-text p{
+        width: 445px;
+        text-align: start;
+    }
+    .section-two{
+        width: 1340px;
+        margin-top: 184px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    .creation-text button{
+        display: block;
+        width: 157px;
+        height: 40px;
+        border: 1px solid #000;
+        background:#fff;
+        color: #000;
+        font-size: 14px;
+        font-family: Alata;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 14px;
+        letter-spacing: 5px;
+        text-transform: uppercase;
+    }
+    .creation-text button:hover{
+        background-color: #000;
+        color: #FFF;
+        transition: 1s;
+    }
+    .creation-text{
+        width: 1340px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    .creation-text h3{
+        font-size: 48px;
+        line-height: 48px;
+    }
+    .section-three{
+        margin-top: 80px;
+        width: 1340px;
+    }
+    .images-sec{
+      display: none;
+    }
+    .images-sect{
+        display: block;
+        width: 1340px;
+        display: grid;
+        grid-template-columns: repeat(4, auto);
+        grid-gap: 105px;
+    }
+    .section-four{
+        display: none;
+    }
+    footer{
+        height: 160px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .footer{
+        margin-top: 10px;
+        width: 1340px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .footer-links{
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+        justify-content: end;
+    }
+    .mob-menu{
+        display: flex;
+        flex-direction: row;
+    }
+    .footer-loop{
+        margin-top: 2px;
+        align-items: end ;
+    }
+    .last-text{
+        width: 327px;
+        display: flex;
+        align-items: end;
+        justify-content: end;
+    }
+}
+@media (max-width: 768px) {
+    .desktop-menu {
+      display: block;
+    }
+    .open-menu,
+    .close-menu {
+      display: none;
+    }
+    .menu {
+      display: none;
+    }
+  }
