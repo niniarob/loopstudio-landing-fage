@@ -172,6 +172,12 @@ section{
     grid-template-columns: auto;
     gap: 24px;
 }
+.section-three .images-sec img {
+    transition: border-color 0.3s ease, opacity 0.3s ease;
+  }
+.section-three .images-sec img:hover {
+    opacity: 0.4;
+  }
 .images-sect{
     display: none;
 }
